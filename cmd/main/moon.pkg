@@ -1,0 +1,7 @@
+import {
+  "Suquster/moonbit-pathfinding-demo",
+}
+
+options(
+  "is-main": true,
+)

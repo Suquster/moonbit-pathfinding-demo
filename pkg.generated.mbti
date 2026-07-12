@@ -1,0 +1,23 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "Suquster/moonbit-pathfinding-demo"
+
+// Values
+pub fn plan_route(Warehouse, (Int, Int), (Int, Int)) -> (Array[(Int, Int)], Int)?
+
+pub fn render_route(Warehouse, Array[(Int, Int)]) -> String
+
+// Errors
+
+// Types and methods
+pub struct Warehouse {
+  rows : Int
+  cols : Int
+  blocked : Array[Bool]
+}
+pub fn Warehouse::parse(Array[String]) -> Self
+pub fn Warehouse::successors(Self, (Int, Int)) -> Array[((Int, Int), Int)]
+
+// Type aliases
+
+// Traits
+

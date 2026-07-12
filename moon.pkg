@@ -1,0 +1,3 @@
+import {
+  "Suquster/moonbit-pathfinding/src/directed",
+}
