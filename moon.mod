@@ -26,5 +26,5 @@ preferred_target = "wasm-gc"
 description = "Warehouse robot route planner demo built on Suquster/moonbit-pathfinding"
 
 import {
-  "Suquster/moonbit-pathfinding@0.0.5",
+  "Suquster/moonbit-pathfinding@0.1.0",
 }
